@@ -1,0 +1,12 @@
+.container{
+    background-color: white;
+    font-family: monospace;
+    width: 45%;
+    min-height: 40%;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 10px 3px black;
+}

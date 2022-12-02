@@ -1,0 +1,23 @@
+.quizQuestion{
+    padding: 10px;
+}
+.question{
+    font-size: 24px;
+}
+.answersOptionsBlock{
+    margin: 20px 0px 0px 0px;
+}
+.answer{
+    font-size: 24px;
+    border: 1px solid grey;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.answer:active{
+    transition: 0.3s;
+    background: url(../../../public/img/check.webp) no-repeat 100%;
+    background-size: contain;
+    border: 1px solid green;
+}
